@@ -1,6 +1,10 @@
+body {
+    font-family: "Lato" sans-serif;
+}
+
 .titler {
     text-align: center;
-    font-family: "Lato" sans-serif;
+    font-weight:100;
     color:#000;
 }
 
