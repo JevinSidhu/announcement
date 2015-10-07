@@ -1,13 +1,43 @@
-body {
-    font-family: "Lato" sans-serif;
+html {
+   background-color: #594E5D;
 }
 
-.titler {
-    text-align: center;
-    font-weight:100;
-    color:#000;
+body {
+    font-family: "Lato" sans-serif;
+    background-color: #594E5D;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.titler {
+    text-align: center;
+    font-size: 100px;
+    font-weight:900;
+    color:#fff;
+    margin-top:150px;    
+    margin-bottom: 40px;
+}
+
+.box {
+    text-align: center;
+    font-size: 2em;
+    width: 70%;
+    color:#9B9B9B;
+    font-weight: 400;
+    background-color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.box:hover {
+    background-color:#9B9B9B;
+    color:#fff;
+     transition: background-color 0.5s ease;
+    
 }
