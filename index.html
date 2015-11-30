@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
 <html>
-    <head> 
+    <head>
     <title> Announcements</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="bootstrap.css" rel="stylesheet" text="text/css">
-    <link href="main.css" rel="stylesheet" text="text/css"> 
+    <link href="main.css" rel="stylesheet" text="text/css">
+    <link href="animate.css" rel="stylesheet" text="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
     </head>
-    
-    <body> 
-    
+
+    <body class="main-body">
+
         <!--  Nav Bar
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -35,22 +36,29 @@
 
     <!-- Main body -->
     <div class="centerer">
-        <div class="container"> 
-            <div class="row"> 
-                <h1 class="titler"> Welcome, <span class="username"> Jevin</span> </h1>
+            <div class="container">
+                <div class="row">
+                    <h1 id="titler" class="welcome animated bounceInDown"> Hello, <span class="username" id="insert">  </span> </h1>
+                </div>
+                <div class="row">
+
+                    <a class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 animated zoomIn" href="#">
+                    <h2 class="box"> <img class="icon-starter" src="speaker.png"> currently </h2>  </a>
+
+                    <a class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 animated zoomIn" href="creation.html">
+                    <h2 class="box"> <img class="icon-starter" src="light-bulb.png"> creation </h2> </a>
+
+                    <a class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 animated zoomIn" href="#">
+                    <h2 class="box"> <img class="icon-starter" src="settings.png"> settings </h2> </a>
+
+                </div>
             </div>
-            <div class="row">
-                <a class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" href="#"> <h2 class="box"> <img src="speaker.png" height="200px" width="200px"> announcement </h2>  </a>
-                <a class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" href="#"> <h2 class="box"> <img src="light-bulb.png" height="200px" width="200px"> creation </h2> </a>
-                <a class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" href="#"> <h2 class="box"> <img src="settings.png" height="200px" width="200px"> settings </h2> </a>
-            </div>
-        </div>
     </div>
-    
+
     <!-- JS scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="type/javascript" src="bootstrap.js"> </script>
-    <script type="type/javascript" src="script.js"> </script>
-    
+    <script src="bootstrap.js"> </script>
+    <script src="script.js"> </script>
+
     </body>
 </html>
